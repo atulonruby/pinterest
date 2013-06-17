@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+
+
 gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
@@ -18,6 +20,7 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'bootstrap-sass', '~>2.2.2.0'
 end
 
 gem 'jquery-rails'
